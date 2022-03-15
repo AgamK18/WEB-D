@@ -1,0 +1,59 @@
+/***********************Tag Selector***********************/
+
+body{
+    background-color: #56BBF1;  /*colorhunt.co & CSS colors*/
+}
+a:hover{             /*:hover is pseudo-class*/
+    color: blue;
+}
+
+hr{
+
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
+}
+h1{                     /*tag selector for generalised styling*/
+    color: #141E27;
+}
+h3{
+    color: #141E27;
+}
+
+/***********************Class Selector***********************/
+
+/*.class_name{
+    properties : value;   class selector for specific styling
+}*/
+.handle{
+    color: crimson;
+}
+.school{
+    color: salmon;
+}
+
+
+/***********************ID Selector***********************/
+#JRS{
+    color: crimson;
+}
+
+
+
+
+/*
+    1. Inline CSS has more precedence than Internal CSS.
+    2. CSS written in the last has the most precedence in case of Internal/External CSS.
+    3. To set the precedence of CSS element the highest, we use (!important).
+    4. Chrome Developer Options (Ctrl+Shift+I) helps you to see the changes but does not change the code.
+    5. Best Practice to implement all styles in external CSS.
+    6. Best Practice to write properties in lexicographical order.
+    7. ID selector overrides Tag selector
+    8. ID is used only in one place while Class can be used more than once.
+    9. Add more than one class on single tag but not in ID.
+    10.Classes are more perferable
+
+
+*/
