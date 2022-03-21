@@ -1,21 +1,146 @@
-.top{
-    background-color: #A8D3DA;
-}
-.middle{
-    background-color: #B590CA;
-    width: 200px;
-    height: 200px;
-}
-.bottom{
-    background-color: #A9333A;
-    width: 200px;
-    height: 200px;
-}
-
-
 body{
-    margin: 0px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    color: #40154E;
 }
 h1{
-    margin-top: 0px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
 }
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+    font-weight: normal;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+a{
+    color:#11999E;
+}
+hr{
+    border-style: dotted none none;
+    border-color: #11999E;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
+    margin: 50px auto 50px auto;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    width:10%;
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 40px;
+}
+.bottom-container{
+    margin-top: 50px;
+    padding: 50px;
+
+    background-color: #66BFBF;
+}
+.t-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+.b-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+}
+
+.ais{
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.idiot{
+    text-decoration: underline;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.goku{
+    background-position:center;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.CP{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+.webd{
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/******************Points********************
+    1. We use  [display: inline-block] to get both functionality
+    2. [display: none]. removes the element
+    3. visibility: hidden. removes the element but keeps the allignment intact.
+    4. fonts.google.com for fonts
+    5. 100% = 1em font size is 16px
+    6. rem has the most precedence in deciding the fonts
+    7. use float and clear to arrang text around image
+    8. use float only when necessary
+*/
+
+/******************Position*******************
+Static: Default HTML Alligning
+Relative: Relative positioning to Static. It only changes the positions of the element not the other elements.
+Absolute: Relative to boundaries of parent element. It affects other positions too.
+Fixed: Stays at the place even when scrolling
+*/
